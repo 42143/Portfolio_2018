@@ -1,0 +1,15 @@
+{
+    "name": "aslan-pc1/portfolio_2018",
+    "authors": [
+        {
+            "name": "42143",
+            "email": "aslan-k@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "_Class\\" : "_Class/"
+        }
+    },
+    "require": {}
+}
