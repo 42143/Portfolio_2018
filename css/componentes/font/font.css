@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'SourceCodePro-Regular';
+  src: url('SourceCodePro-Regular.eot');
+  src: url('SourceCodePro-Regular.woff2') format('woff2'),
+       url('SourceCodePro-Regular.woff') format('woff'),
+       url('SourceCodePro-Regular.ttf') format('truetype'),
+       url('SourceCodePro-Regular.svg#SourceCodePro-Regular') format('svg'),
+       url('SourceCodePro-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Bold';
+  src: url('Code-Bold.eot');
+  src: url('Code-Bold.woff2') format('woff2'),
+       url('Code-Bold.woff') format('woff'),
+       url('Code-Bold.ttf') format('truetype'),
+       url('Code-Bold.svg#Code-Bold') format('svg'),
+       url('Code-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DistrictPro-Thin';
+  src: url('DistrictPro-Thin.eot');
+  src: url('DistrictPro-Thin.woff2') format('woff2'),
+       url('DistrictPro-Thin.woff') format('woff'),
+       url('DistrictPro-Thin.ttf') format('truetype'),
+       url('DistrictPro-Thin.svg#DistrictPro-Thin') format('svg'),
+       url('DistrictPro-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
