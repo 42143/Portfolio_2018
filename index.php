@@ -2,6 +2,22 @@
 <html lang="br">
 	<head>
         <?php require_once "head.php";?>
+        <!--ScrollReveal-->
+        <script src="js/componentes/scrollreveal/scrollreveal.min.js"></script>
+        <script>
+            var config = {reset:true};
+            window.sr = ScrollReveal(config);
+        </script>
+        <style>
+            .sr .hero{ visibility: hidden;}
+            .sr .intro{ visibility: hidden;}
+            .sr .block{ visibility: hidden;}
+        </style>
+        <!--CSS-->
+		<link rel="shortcut icon" href="imagens/favicon.png">
+		<link rel="stylesheet" href="css/pages/index.css">
+		<link rel="stylesheet" href="css/style_mob_375.css" media="screen and (max-width: 375px)">
+        <title>ASLAN KELVIN | WEBMASTER</title>
 	</head>
 	<body style="height:755px;width:1440px;" onload="start();">
 	<!--PC Web -->
