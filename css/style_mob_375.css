@@ -1,0 +1,57 @@
+@media screen and (max-width: 375px){/* Iphone 4 / Iphone 5 /Iphone 6 */ 
+
+*{margin:0px;}
+header{background:#3DAFA7;height:50px;}
+header .content .menu_pc{display:none;}
+header .content .menu_mob{width:50px;height:40px;margin-top:9px;margin-left:10px;display:block;}
+header .content .menu_mob_retractable{width:137px;height:250px;background:#fff;position:absolute;top:0px;left:-137px;transition:2s;display:block;}
+header .content .menu_mob_retractable nav ul{list-style-type:none;font-size:20px;}
+header .content .menu_mob_retractable nav li{display:block;cursor:pointer;margin-top:10px;margin-left:-30px;}
+header .content .menu_mob_retractable nav hr{float:left;border:solid 2px #FBDE2D;width:20px;margin-top:5px;position:absolute;}
+
+/* tela 1*/
+.main .Screen1 .content .center{width:320px;margin-top:40px;margin-left:auto;margin-right:auto;position:relative;}
+.main .Screen1 .content .center h1{font-size:25px;font-weight:bold;font-family:'Code-Bold';color:#212735;opacity:0.0;transition:2s;}
+.main .Screen1 .content .center h3{font-size:17px;text-align:center;color:#3DAFA7;text-align:right;opacity:0.0;transition:2s;}
+.main .Screen1 .content .center .cashier{background:#1D1F21;width:320px;height:60px;padding-left:9px;padding-top:5px;margin-top:30px;
+font-family:'SourceCodePro-Regular';display:none;font-size:10px;}
+.main .Screen1 .content .center .cashier .text_cod{z-index:1;}
+
+.main .Screen1 .content .center .cashier .black{display:none;}
+.main .Screen1 .content .center .cashier .black_mob_375{display:none;}
+.main .Screen1 .content .center .cashier .black_mob_414{display:none;}
+
+.main .Screen1 .content .center .cashier .black_mob_320{background:#1D1F21;width:300px;height:12px;z-index:10;position:absolute;margin-left:10px;margin-top:2px;display:block;}
+.main .Screen1 .content .center .cashier .black_mob_320 .cursor{border-left:solid 1px #fff;width:1px;height:12px;}
+
+.main .Screen1 .content .center ul{list-style-type:none;cursor:pointer;font-size:15px;font-family:'Code-Bold';color:#212735;text-align:center;}
+.main .Screen1 .content .center li .btn_begins_border{width:108px;position:relative;margin-top:15px;margin-left:25%;}
+.main .Screen1 .content .center li .btn_begins_border .btn_begins{width:100px;height:20px;padding-top:10px;}
+
+/* tela 2*/
+.main .Screen2 .content .content_screenpc2{display:none;}
+.main .Screen2 .content .content_screenmob2{display:block;margin-top:60px;}
+.main .Screen2 .content .content_screenmob2 .quadrado{width:320px;height:45px;background:#1D1F21;margin-top:8px;color:#FBDE2D;text-align:center;font-weight:bold;
+font-size:20px;cursor:pointer;position:relative;margin-left:auto;margin-right:auto;}
+/* tela 3*/
+.main .Screen3 .content .content_screenpc3{display:none;}
+.main .Screen3 .content .content_screenmob3{display:block;}
+.main .Screen3 .content .content_screenmob3 .center{width:320px;margin-top:40px;margin-left:auto;margin-right:auto;position:relative;}
+.main .Screen3 .content .content_screenmob3 .center .cashier_canvas{width:320px;height:500px;margin-top:-20px;}
+.main .Screen3 .content .content_screenmob3 .center .cashier_canvas span{font-size:15px;}
+.main .Screen3 .content .content_screenmob3 .center .cashier_canvas .canvas{width:320px;height:23px;position:absolute;margin-top:-1000px;transition:3s;}
+/*tela 4*/
+.main .Screen4 .content .center{width:320px;margin-top:90px;margin-left:auto;margin-right:auto;position:relative;text-align:justify;}
+.main .Screen4 .content .center .photo{width:150px;height:150px;position:relative;opacity:0.0;}
+.main .Screen4 .content .center .photo img{width:150px;height:150px;border-radius:150px;}
+.main .Screen4 .content .center span{font-size:13px;color:#212735;font-weight:bold;}
+.main .Screen4 .content .center .text_about{opacity:0.0;transition:2s;}
+
+/*tela 5*/
+.main .Screen5 .content .center{width:320px;margin-top:40px;margin-left:auto;margin-right:auto;position:relative;}
+.main .Screen5 .content .center span{font-size:15px;}
+.main .Screen5 .content .center img{width:35px;}
+.main .Screen5 .content .center .information{width:320px;margin-left:auto;margin-right:auto;margin-top:50px;}
+.main .Screen5 .content .center .information .logo{width:200px;height:120px;padding-top:50px;padding-left:20px;margin-bottom:10px;}
+
+}
