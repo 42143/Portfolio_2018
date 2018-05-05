@@ -1,4 +1,24 @@
-$(function(){	
+$(function(){
+    $('.btn_begins').css({border:'solid 4px #212735'}); 
+    var coding = setInterval(function(){
+        $('.cursor').toggle();
+    },600);
+});
+
+/*
+
+setTimeout(function(){
+        $('span:nth-child(2)').show();
+        $('.black').css({'right':'88%'});
+        setTimeout(function(){
+            
+            $('span:nth-child(3)').show();
+        $('.black').css({'right':'698px', width:'10px'});
+        },750);        
+    },1500);
+    
+*/
+/*$(function(){	
 	//tela de programação screen1 
 	$('.caf').hide();
 	$('.btn_begins').hide();
@@ -82,3 +102,5 @@ $(function(){
 		$('.hr_contact').css({'width':'20px','transition':'2s'});
 	});
 });
+
+*/

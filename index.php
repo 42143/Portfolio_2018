@@ -2,6 +2,15 @@
 <html lang="br">
 	<head>
         <?php require_once "head.php";?>
+         <!--Jquery-->
+		<script src="js/componentes/jquery.mousewheel.js"></script>
+		<script src="js/common.js"></script>
+        <script src="js/cursor.js"></script>
+        <script src="js/common_screen.js"></script>
+		<!--<script src="js/common_mob.js"></script>-->
+		
+		<script src="js/common_screen2.js"></script>
+		<script src="js/common_screen3.js"></script>
         <!--ScrollReveal-->
         <script src="js/componentes/scrollreveal/scrollreveal.min.js"></script>
         <script>
@@ -9,6 +18,7 @@
             window.sr = ScrollReveal(config);
         </script>
         <style>
+            .sr .neve{ visibility: hidden;}
             .sr .hero{ visibility: hidden;}
             .sr .intro{ visibility: hidden;}
             .sr .block{ visibility: hidden;}
@@ -61,6 +71,14 @@
             delay    : 1200,
             scale    : 1.05,
           }
+          var neve = {
+            origin   : "left",
+            distance : "40px",
+            duration : 900,
+            delay    : 1200,
+            scale    : 1.05, 
+          }
+          sr.reveal(".neve", neve)
           sr.reveal(".hero", hero)
           sr.reveal(".intro", intro)
           sr.reveal(".block",block)    
