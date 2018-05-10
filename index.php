@@ -3,14 +3,12 @@
 	<head>
         <?php require_once "head.php";?>
          <!--Jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="js/componentes/jquery.mousewheel.js"></script>
 		<script src="js/common.js"></script>
         <script src="js/cursor.js"></script>
-        <script src="js/common_screen.js"></script>
-		<!--<script src="js/common_mob.js"></script>-->
-		
-		<script src="js/common_screen2.js"></script>
-		<script src="js/common_screen3.js"></script>
+        <script src="js/common_screen_one.js"></script>
+        <script src="js/common_screen_two.js"></script>
         <!--ScrollReveal-->
         <script src="js/componentes/scrollreveal/scrollreveal.min.js"></script>
         <script>
@@ -24,31 +22,34 @@
             .sr .block{ visibility: hidden;}
         </style>
         <!--CSS-->
-		<link rel="shortcut icon" href="imagens/favicon.png">
+		<link rel="shortcut icon" href="favicon.png">
 		<link rel="stylesheet" href="css/pages/index.css">
         <link rel="stylesheet" href="css/pages/screen_one.css">
-		<!---<link rel="stylesheet" href="css/style_mob_375.css" media="screen and (max-width: 375px)">-->
+        <link rel="stylesheet" href="css/pages/screen_two.css">
+        <link rel="stylesheet" href="css/componentes/animate/animate.css">
         <link rel="stylesheet" href="css/componentes/fontawesome-free-5.0.12/web-fonts-with-css/css/fontawesome-all.min.css">
-        <title>ASLAN KELVIN | WEBMASTER</title>
+        <title>Aslan kelvin | Webmaster</title>
+        
+        <script type="text/javascript">
+		
+	</script>
+
 	</head>
 	<body style="height:755px;width:1440px;" onload="start();">
-	<!--PC Web -->
-		<div id="pc-web" class="layout">
-			<div class="main" style="transform: translate3d(0px, 0%, 0px);">
-				<!--1ºscreen -->
-					<?php include_once"screen_one.php";?>
-				<!--2ºscreen -->
-					<?php //include"screen_two.php";?>	
-				<!--3ºscreen -->
-					<?php //include"screen_three.php";?>
-				<!--4ºscreen -->
-					<?php //include"screen_four.php";?>
-				<!--5ºscreen -->
-					<?php //include"screen_five.php";?>	
-			</div>
-		</div>
-	<!--Fim PC Web-->
-	<?php //include"header_footer.php";?>
+        <div class="layout">
+            <div class="main" style="transform: translate3d(0px, 0%, 0px);">
+                    <!--1ºscreen -->
+                        <?php include"screen_one.php";?>
+                    <!--2ºscreen -->
+                        <?php include"screen_two.php";?>	
+                    <!--3ºscreen -->
+                        <?php //include"screen_three.php";?>
+                    <!--4ºscreen -->
+                        <?php //include"screen_four.php";?>
+                    <!--5ºscreen -->
+                        <?php //include"screen_five.php";?>	
+            </div>
+        </div>    
         <script>
           var hero = {
             origin   : "top",

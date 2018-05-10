@@ -2,10 +2,6 @@
     @import "../helpers/variables";
 //MIXIN
     @import "../helpers/mixin";
-//COMPONENTES
-    @import "../componentes/font/font.css";
-//SCREEN 
-    @import "../layout/screen";
 //SCREEN 1 
 .main{
     .screen1{
@@ -17,11 +13,11 @@
             }
             .cashier{padding-left:70px;padding-right:70px;padding-bottom:15px;padding-top:15px;font-family:'SourceCodePro-Regular';color:$CORCINZA;
                 .code{width:100%;background:$CorDark;padding-left:20px;padding-top:3px;
-                    .black{background:$CorDark;width:600px;position:absolute;z-index:2;margin-top:4px;margin-left:18px;
-                        .cursor{border-left:solid 1px $CorCinzaClaro;width:1px;height:18px;}
+                    .cursor{background:$CorDark;width:450px;position:absolute;z-index:1;margin-top:2px;margin-left:18px;
+                        span{color:$CorCinzaClaro;font-family:'DistrictPro-Thin';}
                     }
                     .coding{z-index:1;
-                        span:nth-child(2){color:$sCorRosa;display:none;}
+                        span:nth-child(2){color:$CorRosa;display:none;}
                         span:nth-child(3){color:$CorBranco;display:none;}
                         span:nth-child(6){display:none;}
                     }
