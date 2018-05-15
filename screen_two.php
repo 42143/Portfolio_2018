@@ -14,14 +14,14 @@
                     <i class="fab fa-laravel fa-5x animated"></i>
                 </div>
                 <div class="col-4">
-                    <h3 class="animated">JQUERY</h3>
+                    <h1 class="animated"><?php require_once"img/svg/jquery.svg"; ?></h1>
                 </div>
                 <div class="w-100"></div>
                 <div class="col-4">
-                    <i class="fab fa-js fa-5x animated"></i>
+                    <h1 class="animated"><?php require_once"img/svg/js.svg";?></h1>
                 </div>
                 <div class="col-4">
-                    <h3 class="animated">AXURE</h3>
+                    <i class="fab fa-wordpress fa-5x animated"></i>
                 </div>
                 <div class="col-4">
                     <i class="fab fa-sass fa-5x animated"></i>
@@ -31,24 +31,20 @@
                     <i class="fab fa-java fa-5x animated"></i>
                 </div>
                 <div class="col-4">
-                    <i class="fab fa-html5 fa-5x animated"></i>
+                    <h1 class="animated"><?php require_once"img/svg/html5.svg";?></h1>
                 </div>
                 <div class="col-4">
-                    <i class="fab fa-css3-alt fa-5x animated"></i>
+                    <h1 class="animated"><?php require_once"img/svg/css3.svg";?></h1>
                 </div>
                 <div class="w-100"></div>
                 <div class="col-4">
                     <i class="fab fa-git-square fa-5x animated"></i>
                 </div>
                 <div class="col-4">
-                    <h3 class="animated">BOOTSTRAP</h3>
+                    <h1 class="animated"><?php require_once"img/svg/bootstrap.svg";?></h1>
                 </div>
                 <div class="col-4">
-                    <h3 class="animated">MYSQL</h3>
-                </div>
-                <div class="w-100"></div>
-                <div class="col-4">
-                    <i class="fab fa-wordpress fa-5x animated"></i>
+                    <h3 class="animated"><?php require_once"img/svg/mysql.svg";?></h3>
                 </div>
             </div>
         </div>

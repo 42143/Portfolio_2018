@@ -13,7 +13,10 @@
             .ability{border:solid 0.5px $CORCINZA;border-left:none;background:$CorCinzaClaro1;
                 .row{margin-top:-1px; 
                     .col-4{border:solid 0.5px $CORCINZA;text-align:center;cursor:pointer;padding-top:10px;height:100px;color:$CorRosa;
-                        h3{font-weight:bold;margin-top:10px;}
+                        svg{
+                            .st0{fill:$CorRosa;font-family:'arial';font-size:71px;}
+                            .st1{fill:none;}
+                        }
                     }
                     .col-4:before,.col-4:after{box-sizing:border-box;content: ''; position:absolute;}
                     .col-4:before,.col-4:after{border: 2px solid transparent;width: 0;height: 0;}
