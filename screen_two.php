@@ -1,9 +1,9 @@
 <div class="container-fluid Screen screen2">
     <div class="row">
         <div class="col-5 code">
-            <h1>HABILIDADES</h1>
-            <h6>FONT-END & BACK-END</h6>
-            <i class="fab fa-connectdevelop fa-5x "></i>
+            <h1 class="fdown">HABILIDADES</h1>
+            <h6 class="fup">FRONT-END & BACK-END</h6>
+            <i class="fab fa-connectdevelop fa-5x fup"></i>
         </div>
         <div class="col-7 ability">
             <div class="row">
@@ -45,6 +45,10 @@
                 </div>
                 <div class="col-4">
                     <h3 class="animated">MYSQL</h3>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-4">
+                    <i class="fab fa-wordpress fa-5x animated"></i>
                 </div>
             </div>
         </div>

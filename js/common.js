@@ -4,7 +4,8 @@ $(function(){
 	$(window).resize(function(){
 		$('body').css('height', $(window).height()).css('width', $(window).width());
 	})
-
+    var up = 'animated infinite fadeInUp';
+    var down = 'animated infinite fadeInDown';
 	var index_s = 0;
 	var dialog = false;
 	var box_n = 0;
@@ -29,12 +30,24 @@ $(function(){
 			if(index_for === -1){
 				$('#point-list>li').eq(1).addClass('hover');
 				window.setTimeout(function(){
+                    $('.fdown').addClass(down);
+                    $('.fup').addClass(up);
+                    setTimeout(function(){
+                        $('.fdown').removeClass(down);
+                        $('.fup').removeClass(up);
+                    },1000);
 					web_status = false;
 				},100);
 			};
 			if(index_for === -2){
 				$('#point-list>li').eq(2).addClass('hover');
 				window.setTimeout(function(){
+                    $('.fdown').addClass(down);
+                    $('.fup').addClass(up);
+                    setTimeout(function(){
+                        $('.fdown').removeClass(down);
+                        $('.fup').removeClass(up);
+                    },1000);
 					web_status = false;
 				},100);	
 			};

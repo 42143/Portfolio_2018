@@ -1,5 +1,6 @@
 $(function(){
     $('.btn_begins').css({border:'solid 4px #212735'});
+    $('.nono').css({border:'solid 4px #EEEEEE'});
     setTimeout(function(){
         $('.cursor').animate({left : '551px'});
         $('span:nth-child(2),span:nth-child(3)').show();

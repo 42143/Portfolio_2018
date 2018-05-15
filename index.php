@@ -26,6 +26,7 @@
 		<link rel="stylesheet" href="css/pages/index.css">
         <link rel="stylesheet" href="css/pages/screen_one.css">
         <link rel="stylesheet" href="css/pages/screen_two.css">
+        <link rel="stylesheet" href="css/pages/screen_three.css">
         <link rel="stylesheet" href="css/componentes/animate/animate.css">
         <link rel="stylesheet" href="css/componentes/fontawesome-free-5.0.12/web-fonts-with-css/css/fontawesome-all.min.css">
         <title>Aslan kelvin | Webmaster</title>
@@ -43,7 +44,7 @@
                     <!--2ºscreen -->
                         <?php include"screen_two.php";?>	
                     <!--3ºscreen -->
-                        <?php //include"screen_three.php";?>
+                        <?php include"screen_three.php";?>
                     <!--4ºscreen -->
                         <?php //include"screen_four.php";?>
                     <!--5ºscreen -->

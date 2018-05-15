@@ -1,15 +1,16 @@
 $(function(){
-    var num;
+    /*var num = 0;
     var eq = 12;
-    for (num = 0; num < eq; num ++){
-        alert('aslan'+num+'kelvin');
-        $('.col-4:eq(+num+)').hover(function(){
-            $('.animated:eq(+num+)').addClass('infinite bounce');
-        },function(){
-            $('.animated:eq(+num+)').removeClass('infinite bounce');
-        });
-    }
-    /*
+    while(num < eq){
+        var select_col = '.col-4:eq('+num+')';
+        var select_eq = '.animated:eq('+num+')';
+            $(select_col).hover(function(){
+                $(select_eq).addClass('infinite bounce');
+            },function(){
+                $(select_eq).removeClass('infinite bounce');
+            });
+          num++;
+          }*/
     $('.col-4:eq(0)').hover(function(){
         $('.animated:eq(0)').addClass('infinite bounce');
     },function(){
@@ -57,6 +58,33 @@ $(function(){
     },function(){
         $('.animated:eq(7)').removeClass('infinite bounce');
     });
-    
-    */
+    //
+    $('.col-4:eq(8)').hover(function(){
+        $('.animated:eq(8)').addClass('infinite bounce');
+    },function(){
+        $('.animated:eq(8)').removeClass('infinite bounce');
+    });
+    //
+    $('.col-4:eq(9)').hover(function(){
+        $('.animated:eq(9)').addClass('infinite bounce');
+    },function(){
+        $('.animated:eq(9)').removeClass('infinite bounce');
+    });
+    //
+    $('.col-4:eq(10)').hover(function(){
+        $('.animated:eq(10)').addClass('infinite bounce');
+    },function(){
+        $('.animated:eq(10)').removeClass('infinite bounce');
+    });
+    //
+    $('.col-4:eq(11)').hover(function(){
+        $('.animated:eq(11)').addClass('infinite bounce');
+    },function(){
+        $('.animated:eq(11)').removeClass('infinite bounce');
+    });
+    $('.col-4:eq(12)').hover(function(){
+        $('.animated:eq(12)').addClass('infinite bounce');
+    },function(){
+        $('.animated:eq(12)').removeClass('infinite bounce');
+    });
 });

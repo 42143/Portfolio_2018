@@ -1,0 +1,32 @@
+// VARIAVEIS 
+    @import "../helpers/variables";
+//MIXIN
+    @import "../helpers/mixin";
+//SCREEN 3
+.main{
+    .screen3{background:$CorDark;
+        .row{margin-top:70px;
+            .col{text-align:center;
+                h1{color:$CorRosa;}
+                h6{color:$CorCinzaClaro;font-family:'SourceCodePro-Regular';}
+            }
+           
+            ul{list-style-type:none;cursor:pointer;font-size:25px;font-family:'Code-Bold';color:$CorCinzaClaro;margin-top:30px;
+                li{text-align:center;
+                    .btn_begins_border{width:280px;padding:9px;
+                        .btn_begins{margin:-9px;}
+                        .btn_begins:hover{color:$CorRosa;}
+                        .btn_begins:before,.btn_begins:after{box-sizing:border-box;content: ''; position:absolute;}
+                        .btn_begins:before,.btn_begins:after{border: 4px solid transparent;width: 0;height: 0;}
+                        .btn_begins:before,.btn_begins:after{width:100%;height:100%;}
+                        .btn_begins:before{top:0;left:0}
+                        .btn_begins:after{bottom:0;right:0;}
+                        .btn_begins:hover::before{border-top-color:$CorRosa;border-right-color:$CorRosa;-webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;}
+                        .btn_begins:hover::after{border-bottom-color:$CorRosa;border-left-color:$CorRosa;-webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+                        transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;}
+                    }//btn_begins_border
+                }//li
+            }//ul
+        }//row
+    }//screen3
+}//main

@@ -11,7 +11,7 @@
                 h1{font-size:69px;font-weight:bold;font-family:'Code-Bold';color:$CorAzulEscuro;}
                 h3{font-size:30px;color:$CorAzulClaro;}
             }
-            .cashier{padding-left:70px;padding-right:70px;padding-bottom:15px;padding-top:15px;font-family:'SourceCodePro-Regular';color:$CORCINZA;
+            .cashier{padding-left:70px;padding-right:70px;padding-top:15px;font-family:'SourceCodePro-Regular';color:$CORCINZA;
                 .code{width:100%;background:$CorDark;padding-left:20px;padding-top:3px;
                     .cursor{background:$CorDark;width:450px;position:absolute;z-index:1;margin-top:2px;margin-left:18px;
                         span{color:$CorCinzaClaro;font-family:'DistrictPro-Thin';}
@@ -23,7 +23,7 @@
                     }
                 }    
             }
-            ul{list-style-type:none;cursor:pointer;font-size:25px;font-family:'Code-Bold';color:$CorAzulEscuro;
+            ul{list-style-type:none;cursor:pointer;font-size:25px;font-family:'Code-Bold';color:$CorAzulEscuro;margin-top:30px;
                 li{text-align:center;
                     .btn_begins_border{width:280px;padding:9px;
                         .btn_begins{margin:-9px;}

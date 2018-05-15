@@ -1,9 +1,10 @@
 <div class="container-fluid Screen screen1" >
     <div class="row">
         <div class="col intro">
-            {{<h3><span>{{</span>Olá!, meu nome é Aslan kelvin<span>}}</span></h3>
+            <h3><span>{{</span>Olá!, meu nome é Aslan kelvin<span>}}</span></h3>
             <!--<h3>MEU NOME É ASLAN KELVIN</h3>-->
-            <h1>SOU WEBMASTER<br>FONT-END & BACK-END</h1>
+            <h1>SOU WEBMASTER<br>FRONT-END & BACK-END</h1>
+            <i class="fab fa-connectdevelop fa-5x "></i>
         </div>
         <div class="w-100"></div>
         <div class="col cashier">

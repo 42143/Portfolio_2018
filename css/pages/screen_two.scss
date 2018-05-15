@@ -2,11 +2,11 @@
     @import "../helpers/variables";
 //MIXIN
     @import "../helpers/mixin";
-//SCREEN 1 
+//SCREEN 2 
 .main{
     .screen2{
         .row{margin-top:70px;
-            .code{background:$CorDark;padding-top:50px;text-align:center;
+            .code{background:$CorDark;padding-top:100px;text-align:center;
                 h1{color:$CorRosa;}
                 h6{color:$CorCinzaClaro;font-family:'SourceCodePro-Regular';}
             }
