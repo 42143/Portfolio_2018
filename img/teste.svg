@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+
+
+
+<!---
+
+
+        -webkit-transition: all 0.25s cubic-bezier(0.12, 0.75, 0.4, 1);
+        transform: translateX(-18px);
+	   -webkit-transform: translateX(-18px);
+        display: block;
+	
+	-ms-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+    
+-->
+    
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+    
+    <style type="text/css">
+        path{
+            transition: all 0.25s cubic-bezier(0.12, 0.75, 0.4, 1);
+            -webkit-transition: all 0.25s cubic-bezier(0.12, 0.75, 0.4, 1);
+            transform: translateX(-18px);
+        }
+        path{ stroke:#1e83ec; fill:none; }
+    </style>
+    
+    <g>
+        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M29,6L46,6L63,27L32,58L1,27L18,6L32,6L32,58" style="stroke-dasharray: 225, 227; stroke-dashoffset: 0;"/>
+        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,57L18,27L24,6" style="stroke-dasharray: 55, 57; stroke-dashoffset: 0;"/>
+        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,57L46,27L40,6" style="stroke-dasharray: 55, 57; stroke-dashoffset: 0;"/>
+        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M1,27L63,27" style="stroke-dasharray: 62, 64; stroke-dashoffset: 0;"/>
+    </g>
+</svg>

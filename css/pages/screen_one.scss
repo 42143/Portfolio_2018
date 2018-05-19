@@ -10,6 +10,28 @@
                 h1,h3{text-align:center;}
                 h1{font-size:69px;font-weight:bold;font-family:'Code-Bold';color:$CorAzulEscuro;}
                 h3{font-size:30px;color:$CorAzulClaro;}
+                .wrapper{//position:absolute;top:45%;left:50%;transform: translate(-50% , -50%);width:30%;
+                    
+                }
+                polygon{stroke:#F06;fill:none;stroke-dasharray:2387;opacity:10;animation: animate 3s cubic-bezier(.27,.77,.91,.06); @-webkit-animation: animate 3s cubic-bezier(.27,.77,.91,.06);}
+                
+                circle{stroke:none;fill:#F06;stroke-dasharray:2387;opacity:10;animation: animate 3s cubic-bezier(.27,.77,.91,.06); @-webkit-animation: animate 3s cubic-bezier(.27,.77,.91,.06);}
+                    
+                    @-webkit-keyframes animate {
+                        0% {opacity: 0;fill:none;stroke-dashoffset:2387;}
+                        30% {opacity: 10;fill:none;stroke-dashoffset:2387;}
+                        90% {fill:none;}
+                        100% {opacity: 10;fill:none;}
+                    }
+                    @keyframes animate {
+                        0% {opacity: 0;fill:none;stroke-dashoffset:2387;}
+                        30% {opacity: 10;fill:none;stroke-dashoffset:2387;}
+                        90% {fill:none;}
+                        100% {opacity: 10;fill:none;}
+                    }
+            
+                    
+                //.wrapper{position:absolute;top:45%;left:50%;transform: translate(-50% , -50%);width:30%;}
             }
             .cashier{padding-left:70px;padding-right:70px;padding-top:15px;font-family:'SourceCodePro-Regular';color:$CORCINZA;
                 .code{width:100%;background:$CorDark;padding-left:20px;padding-top:3px;
