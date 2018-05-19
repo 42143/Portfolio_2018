@@ -1,10 +1,12 @@
 <div class="container-fluid Screen screen1" >
     <div class="row">
-        <div class="col-5">
-            <!--<h3><span>{{</span>Olá!, meu nome é Aslan kelvin<span>}}</span></h3>
-            <!--<h3>MEU NOME É ASLAN KELVIN</h3>
-            <h1>SOU WEBMASTER<br>FRONT-END & BACK-END</h1>-->
+        <div class="col">
+            <h3><span>{{</span>Olá!, meu nome é Aslan kelvin<span>}}</span></h3>
+            <!--<h3>MEU NOME É ASLAN KELVIN</h3>-->
+            <h1>SOU WEBMASTER<br>FRONT-END & BACK-END</h1>
         </div>
+        <div class="w-100"></div>
+        <div class="col-5"></div>
         <div class="col wrapper">
            <svg x="0px" y="0px" viewBox="0 0 388 338.6" style="enable-background:new 0 0 388 338.6;" xml:space="preserve">
             <style type="text/css">
