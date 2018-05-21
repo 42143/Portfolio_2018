@@ -85,5 +85,6 @@
           sr.reveal(".intro", intro)
           sr.reveal(".block",block)    
         </script>
+        <?php require_once "header.php"?>
 	</body>
 </html>	

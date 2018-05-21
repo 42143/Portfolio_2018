@@ -29,6 +29,7 @@ $(function(){
 			}
 			if(index_for === -1){
 				$('#point-list>li').eq(1).addClass('hover');
+                $('.header').css({'color':'#999'});
 				window.setTimeout(function(){
                     $('.fdown').addClass(down);
                     $('.fup').addClass(up);

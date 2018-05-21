@@ -1,9 +1,10 @@
 <div class="container-fluid Screen screen1" >
     <div class="row">
-        <div class="col">
+        <div class="col intro">
             <h3><span>{{</span>Olá!, meu nome é Aslan kelvin<span>}}</span></h3>
-            <!--<h3>MEU NOME É ASLAN KELVIN</h3>-->
-            <h1>SOU WEBMASTER<br>FRONT-END & BACK-END</h1>
+            <!--<h3>MEU NOME É ASLAN KELVIN</h3>
+            <h1>SOU WEBMASTER<br>FRONT-END & BACK-END</h1>-->
+            <h1>PLUS ULTRA<br>FRONT-END & BACK-END</h1>
         </div>
         <div class="w-100"></div>
         <div class="col-5"></div>
@@ -58,7 +59,7 @@
             <li></li>
             <li>
                 <div class="col btn_begins_border block">
-                    <div class="btn_begins">Começar</div>
+                    <div class="btn_begins nono">Começar</div>
                 </div>	
             </li>
         </ul>
